@@ -208,11 +208,11 @@ ul.aside-list {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-left: 20px;
-  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 20px;
   box-shadow: rgba(255, 255, 255, 0.318) 0px 6px 10px -20px,
     rgba(246, 245, 245, 0.351) 0px 2px 20px -3px;
-  margin: 10%;
 }
 .work-link {
   text-decoration: none;
@@ -229,6 +229,62 @@ ul.aside-list {
 .work-title {
   font-size: larger;
   font-family: var(--font-family);
+}
+.footer-container {
+  background-color: var(--hero-background);
+}
+.footer-header-row {
+  display: flex;
+  font-family: var(--font-family);
+  justify-content: space-around;
+  color: var(--header-buttons);
+  border-top: 1px solid #a4a9ad;
+  flex-wrap: wrap;
+  height: max-content;
+}
+.Frame-60 {
+  display: flex;
+  margin: auto;
+  margin-top: -55px;
+  padding-right: 10px;
+}
+.footer-header-span {
+  display: flex;
+  align-items: start;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.foter-main-content {
+  display: flex;
+  color: var(--header-buttons);
+  flex-direction: column;
+  font-family: var(--font-family);
+  padding-left: 30px;
+  font-size: larger;
+}
+.footer-row-container {
+  display: flex;
+  font-family: var(--font-family);
+  color: var(--header-buttons);
+  padding-left: 10px;
+  padding-bottom: 40px;
+  font-size: larger;
+  flex-direction: column;
+}
+.footer-first-row {
+  display: flex;
+  padding: 20px;
+  font-size: larger;
+  gap: 10%;
+}
+.footer-second-row {
+  display: flex;
+  padding-left: 20px;
+  gap: 10%;
+}
+.ls-span {
+  color: var(--code-font);
 }
 
 @media screen and (min-width: 460px) {
@@ -282,6 +338,12 @@ ul.aside-list {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+  .box {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 
