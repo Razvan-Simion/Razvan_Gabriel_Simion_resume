@@ -153,11 +153,13 @@ ul.aside-list {
   padding-left: 20px;
   color: var(--header-buttons);
 }
-.two {
+/* .two {
   margin-left: -8px;
-}
+} */
 .final-number {
-  margin-left: 1px;
+  padding-left: 12px;
+  padding-right: 38px;
+  color: var(--header-font);
 }
 .bio-subtitle {
   font-size: medium;
@@ -166,6 +168,20 @@ ul.aside-list {
 }
 .about-me-description {
   color: var(--header-font);
+  font-size: large;
+}
+.education-tabel tr :nth-child(2) {
+  padding-left: 10px;
+}
+.education-tabel {
+  font-family: var(--font-family);
+  padding-left: 10px;
+  font-size: large;
+}
+.border-right {
+  border-right: 1px solid;
+  padding-right: 40px;
+  text-align: right;
 }
 .submenu-svg .icon-file_type {
   width: 0.9em;
@@ -176,10 +192,7 @@ ul.aside-list {
   height: 1.3em;
   margin-bottom: -6px;
 }
-.vl {
-  border-left: 1.5px solid #a4a9ad;
-  min-height: 25px;
-}
+
 .blue-color {
   padding-left: 20px;
   color: var(--primary-cod-line);
@@ -267,7 +280,7 @@ ul.aside-list {
   font-weight: 400;
   font-size: large;
 }
-.footer-row-container {
+.footer-tabel {
   display: flex;
   font-family: var(--font-family);
   color: var(--header-buttons);
